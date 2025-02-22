@@ -1,4 +1,7 @@
 VS Code Customization Settings
+#Demo Photo:
+![Screenshot 2025-02-23 044517](https://github.com/user-attachments/assets/d48619d7-92fb-4574-842f-ce6a4363c399)
+
 
 This repository contains my personalized VS Code settings designed to create a streamlined and efficient development environment. The configuration includes an Andromeda theme, essential extensions, and enhanced productivity settings for a variety of languages.
 
@@ -170,3 +173,11 @@ cp .vscode/settings.json ~/.config/Code/User/
 
 Nazrul Islam
 mhdnazrul511@gmail.com
+
+#Demo Photo:
+![Screenshot 2025-02-23 044557](https://github.com/user-attachments/assets/62725b82-4bbd-425a-9751-7a090a0023f1)
+![Screenshot 2025-02-23 044546](https://github.com/user-attachments/assets/68177cce-1c3f-4589-8edf-d6321c37e35d)
+![Screenshot 2025-02-23 044535](https://github.com/user-attachments/assets/0460e8a2-2549-4fea-bced-b06e52d47baf)
+![Screenshot 2025-02-23 044526](https://github.com/user-attachments/assets/0434d476-5a26-457f-a6d7-a4c9cbea6733)
+![Screenshot 2025-02-23 044517](https://github.com/user-attachments/assets/811677fd-787e-4aa4-9015-6bcd4135d16c)
+

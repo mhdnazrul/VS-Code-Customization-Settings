@@ -1,0 +1,6 @@
+# Required Extensions
+1. Andromeda Theme
+2. Prettier - Code formatter
+3. Material Icon Theme
+4. Live Server
+5. Code Runner

@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "ms-vscode.cpptools",
+    "ms-python.python",
+    "ritwickdey.liveserver",
+    "formulahendry.code-runner",
+    "PKief.material-icon-theme",
+    "EliverLara.andromeda"
+  ]
+}

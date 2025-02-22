@@ -1,0 +1,115 @@
+{
+  // 🖥️ Window & UI Configuration
+  "window.zoomLevel": 1,
+  
+  // 🎨 Workbench Customization
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+
+  // ✍️ Editor Configuration
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.hover.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.codeLens": false,
+  "editor.linkedEditing": true,
+
+  // 🔄 Formatting & Auto-Save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 800,
+
+  // 🖥️ Terminal Configuration
+  "terminal.integrated.fontFamily": "JetBrains Mono, Cascadia Code PL, monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+
+  // 🎨 Color Customizations
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ff4500",
+    "editorGroupHeader.tabsBackground": "#2c2c54",
+    "activityBar.background": "#2c2c54",
+    "sideBar.background": "#141422",
+    "tab.activeBackground": "#706fd3",
+    "tab.inactiveBackground": "#191846",
+    "terminal.border": "#2c2c54",
+    "terminal.background": "#2c2c54",
+    "statusBar.background": "#474787",
+    "scrollbarSlider.background": "#474787",
+    "scrollbarSlider.hoverBackground": "#706fd3"
+  },
+
+  // 🔧 Language Specific Formatters
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[less]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[graphql]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[handlebars]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[svelte]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[astro]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[c]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[python]": { "editor.defaultFormatter": "ms-python.python" },
+  "python.formatting.provider": "black",
+
+  // ⚡️ Extension Settings
+  // Live Server
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true",
+  
+  // Live Sass Compiler
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+
+  // Code Runner
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.runInTerminal": true,
+
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Screencast Mode
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "screencastMode.mouseIndicatorColor": "#f1c40f",
+  "screencastMode.verticalOffset": 0,
+
+  // Security
+  "security.workspace.trust.untrustedFiles": "open"
+}

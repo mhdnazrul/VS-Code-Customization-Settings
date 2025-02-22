@@ -1,5 +1,6 @@
-VS Code Customization Settings
-#Demo Photo:
+## VS Code Customization Settings
+
+##Demo Photo:
 ![Screenshot 2025-02-23 044517](https://github.com/user-attachments/assets/d48619d7-92fb-4574-842f-ce6a4363c399)
 
 

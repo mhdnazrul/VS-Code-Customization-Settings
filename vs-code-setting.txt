@@ -1,7 +1,7 @@
 {
   // 🖥️ Window & UI Configuration
   "window.zoomLevel": 1,
-  
+
   // 🎨 Workbench Customization
   "workbench.colorTheme": "Andromeda",
   "workbench.iconTheme": "material-icon-theme",
@@ -26,6 +26,8 @@
   "editor.smoothScrolling": true,
   "editor.codeLens": false,
   "editor.linkedEditing": true,
+  // power mode sittng
+  "powermode.enabled": true,
 
   // 🔄 Formatting & Auto-Save
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -83,8 +85,8 @@
   // Live Server
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
   "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true",
-  
+  "liveServer.settings.donotVerifyTags": true,
+
   // Live Sass Compiler
   "liveSassCompile.settings.formats": [
     {
@@ -111,5 +113,32 @@
   "screencastMode.verticalOffset": 0,
 
   // Security
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "powermode.presets": "flames",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false
 }

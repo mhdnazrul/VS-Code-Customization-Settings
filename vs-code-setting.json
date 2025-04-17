@@ -26,8 +26,17 @@
   "editor.smoothScrolling": true,
   "editor.codeLens": false,
   "editor.linkedEditing": true,
-  // power mode sittng
+
+  // 💥 Power Mode Settings
   "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+
+  // 🔧 Emmet Configuration
+  "emmet.useInlineCompletions": true,
+  "emmet.triggerExpansionOnTab": true,
 
   // 🔄 Formatting & Auto-Save
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -107,12 +116,12 @@
     "javascript": "javascriptreact"
   },
 
-  // Screencast Mode
+  // 🖥️ Screencast Mode
   "screencastMode.onlyKeyboardShortcuts": true,
   "screencastMode.mouseIndicatorColor": "#f1c40f",
   "screencastMode.verticalOffset": 0,
 
-  // Security
+  // 🔒 Security & Workspace
   "security.workspace.trust.untrustedFiles": "open",
   "git.enableSmartCommit": true,
   "explorer.confirmDelete": false,
@@ -137,8 +146,15 @@
     "HTML (Eex)",
     "plist"
   ],
-  "powermode.presets": "flames",
-  "powermode.combo.counterEnabled": "hide",
-  "powermode.combo.timerEnabled": "hide",
-  "powermode.shake.enabled": false
+  "workbench.editorAssociations": {
+    "*.o": "default"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "C_Cpp.copilotHover": "disabled",
+  "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+  "github.copilot.chat.agent.runTasks": false,
+  "github.copilot.chat.followUps": "never",
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "chat.commandCenter.enabled": false
 }

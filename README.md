@@ -32,18 +32,10 @@ To set up the environment on your machine, follow these steps:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/andromeda-dev-environment.git
+git clone https://github.com/mhdnazrul/VS-Code-Customization-Settings.git
 ```
 
-### 2. Copy Settings to Your Project Directory
-
-After cloning, copy the `.vscode` folder into your desired project directory:
-
-```bash
-cp -r andromeda-dev-environment/.vscode ~/your-project-directory/
-```
-
-### 3. Install Required Extensions
+### 2. Install Required Extensions
 
 Based on your settings.json code, here are the extensions you'll need:
 
